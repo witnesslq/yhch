@@ -1,0 +1,6 @@
+/****************  table 每列宽度样式 ****************/
+.basajzym td:nth-child(1), .dfm td:nth-child(1){width: 2%; padding: 0 22px;}
+
+.theadFirst th:nth-child(1){width: 16%;}
+.theadFirst th:nth-child(2){width: 18%;}
+.theadFirst th:nth-child(3){width: 16%;}

@@ -1,0 +1,19 @@
+.content{margin: 60px 40px 30px 200px;}
+
+.content .head{border-bottom: 1px solid #ccc; padding: 6px 27px;}
+.content .head h4{font-size: 15px;}
+.content .head .span{color: #006b17;}
+.head .btngoback{float: right; margin-top: -35px; width: 115px; height: 30px; line-height: 17px; background: #008a37; border-color: #00421e;}
+.head .btngoback:hover{background: #009a3f;}
+
+.content .body{width: 950px; margin: 4em auto;}
+.body .chunk{clear: both;}
+.chunk .chunk-head{float: left; width: 150px; font-size: 15px;}
+.chunk-head .bar{width: 25px; height: 25px; padding: 3px 8px; display: inline-block; border-radius: 50%; background: #008a37; color: #fff;}
+.chunk-head .span{float: right; margin-right: 80px; margin-top: 3px;}
+
+.chunk .chunk-body{float: left; margin-bottom: 3em; width: 800px;}
+.chunk-body .ul{}
+.chunk-body .li{float: left; width: 10.5em; margin-right: 3.5em; margin-bottom: 2em;}
+.chunk-body .li a{display: inline-block; border: 1px solid #ccc; border-radius: 4px; padding: 3px 0; text-align: center; width: 100%;}
+.chunk-body .li a:hover{border-color: #008a37; color: #008a37;}

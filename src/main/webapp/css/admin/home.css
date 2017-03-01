@@ -1,0 +1,94 @@
+body{background-color:#f4f4f4;}
+
+/************* 导航栏样式 start **********/
+.roomNav{border-bottom: 3px solid #00842a; margin-top: 50px; background: #fafafa;}
+.roomNav .roomNavInner{padding-top: 24px; width: 1100px; margin: auto; height: 60px;}
+.roomNavInner .nav-li{margin-left: 50px; float: left;  overflow: hidden;  }
+.roomNavInner .nav-li a{height: 37px; line-height: 37px; color: #5e5e5e; padding: 0 20px; font-size: 15px; cursor: pointer;}
+.roomNavInner .nav-li:nth-child(3) a{color: #00842a;}
+.roomNavInner .nav-li:hover a{color: #00842a;}
+/************* 导航栏样式 end **********/
+
+
+/***************** 个人健康数据 start ****************/
+.roomNavInner .dropMenu{float: left; height: 40px;}
+.dropMenu .nav_title{width: 237px; height: 37px; line-height: 37px; text-align: center; font-size: 16px; color: #fff; float: left; background: #00842a;}
+.dropMenu .index{position: absolute; top: 113px; width: 237px; height: 330px; border-left: 2px solid #00842a; background-color: #fff; box-shadow: 2px 2px 2px rgba(0,0,0,0.2); z-index: 50;}
+.index .plate{position: relative;}
+.plate img{width: 45px;}
+.plate-title{height: 110px; border-bottom: 1px solid #00842a; border-right: 2px solid #00842a; position: relative; 
+	     background: url(../../img/bg_plate_inner.gif) no-repeat 190px 46px; z-index: 100; background-color: #fff;}
+.plate-title .title-head{padding: 33px 34px;}
+.plate-title .title-head span{font-size: 15px;}
+
+.plate-content{display: none; width: 625px; height: 333px; border: 2px solid #00842a; border-left: none; position: absolute; left: 234px; background: #fff; box-shadow: 2px 2px 2px rgba(0,0,0,0.2);}  
+.content-title{margin-top: 20px; margin-left: 50px;}	    
+.content-title ul{}
+.content-title ul li{height: 30px; float: left; padding-left: 50px; margin: 8px 0; width: 48%;} 
+.content-title ul li:last-child{border-bottom: none;}
+.content-title ul li a{display: inline-block; width: 80%; height: 100%;}
+.content-title .icon{float: left; width: 10px; height: 10px; border-radius: 50%; margin: 5px 1.5em 5px .5em; background: #999;}
+.content-title ul li:hover a{color: #27adcc; animation: icon-jump 1s ease-in-out forwards infinite;}
+.content-title ul li:hover .icon{background: #27adcc; animation: icon-jump 1s ease-in-out forwards infinite;}
+@keyframes icon-jump{0%{transform: translateY(3px);}50%{transform: translateY(-3px);}100%{transform: translateY(3px);}}
+
+.plate-roomService .plate-content{top: -2px;}
+.plate-repair .plate-content{top: -112px;}
+.plate-resource .plate-content{top: -222px;}
+
+.plate-title-active{border-right: 2px solid #fff;}
+/***************** 个人健康数据 end ****************/
+
+
+/***************** 页面内容   start *******************************/
+.body{height: 980px; position: relative;}
+.body .top{width: 1100px; margin: 10px auto;}
+.top .login{width: 215px; height: 319px; float: right; margin-top: -314px; background: #fff; text-align: center; box-shadow: 1px 0 3px rgba(0,0,0,.2);}
+
+/******************  大图轮播样式  *************************/
+.top .wave{background: #eee; width: 610px; height: 315px; margin-left: 247px; overflow: hidden; position: relative;}
+.wave .picture{position: relative;}
+.wave ul{position: absolute; width: 2440px; overflow: hidden;}
+.wave .picture li{float: left; width: 610px; height: 310px; overflow: hidden;}
+
+.wave .banner-left, .wave .banner-right{opacity: 0; z-index: 2; width: 50px; height: 80px; position: absolute; top: 50%; left: 0; margin-top: -40px; cursor: pointer; background: url(../../img/left.png) no-repeat center; background-size: 50px 80px;}
+.wave .banner-right{left: 560px; transform: rotate(180deg); -o-transform: rotate(180deg); -webkit-transform: rotate(180deg); -o-transform: rotate(180deg); -moz-transform: rotate(180deg);}
+.wave .banner-left:hover, .wave .banner-right:hover{background-color: rgba(0,0,0,.1);}
+
+.wave .toolBar{position: absolute; height: 50px; width: 610px; bottom: 0; text-align: center;}
+.wave .toolBar .bar{position: absolute; width: 10px; height: 10px; background: #a5a5a5; bottom: 10px; cursor: pointer;}
+.wave .toolBar .bar:nth-child(1){left: 275px;}
+.wave .toolBar .bar:nth-child(2){left: 300px;}
+.wave .toolBar .bar:nth-child(3){left: 325px;}
+.wave .toolBar .active{height: 20px; background: #009039}
+
+/*********************** 用户信息样式 ************************/
+.login .userInfo{}
+.userInfo .userType{display: inline-block; width: 60px; background: #ff4d4d; color: #fff; border-radius: 3px;}
+.userInfo .userName{display: block; margin-top: 75px; margin-bottom: 15px; font-size: 20px; color: #111;}
+.login .btnedit{margin-top: 60px; height: 150px; height: 28px; line-height: 15px; width: 150px; border-color: #00842a; color: #00842a;}
+.login .btnedit:hover{background: #00842a; color: #fff;}
+
+/********************* 主要业务介绍 样式 *****************/
+.center{width: 1100px; margin: 85px auto;}
+.content img{display: inline-block; width: 50px;}
+.content h2{font-size:18px; border-left: 4px solid #35b558; padding-left: 7px;}
+
+.card{padding: 40px 30px; width: 275px; float: left; border: 1px solid #ddd; border-right: none; transition: all ease-in-out 0.2s; height:225px; background-color: #fff; margin-top: 25px; margin-bottom: 50px; text-align: center;}
+.card:nth-child(5){margin-right: 0; border-right: 1px solid #ddd;}
+/*.card:hover{box-shadow: 0 0 25px rgba(0,0,0,0.2)}*/
+.card h3{margin-top: 30px; font-size:18px;}
+.card p{color:#999; margin-top: 20px;}
+
+/**** 修改密码 模态框样式***/
+#editPasswordAdmin .modal-body{padding: 20px 15px 0;}
+
+
+/*************   footer样式  *******************************/
+.body .footer{width: 100%; height: 180px; background: #fff; position: absolute; bottom: 0; color: #999; text-align: center;}
+.footer span{display: block; margin-top: 55px; font-size: 17px;}
+.footer .foot{margin-top: 30px;}
+
+
+
+

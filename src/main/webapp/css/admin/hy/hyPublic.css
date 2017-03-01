@@ -1,0 +1,58 @@
+header .header-logo{left: 45%;}
+header .homeMenu {margin-top: 15px; margin-left: -7px; display: inline-block; cursor: pointer; width: 160px; height: 30px;}
+header .homeMenu .span{margin-left: 0.5em;}
+.main-nav{position: fixed; width: 0; box-shadow: 2px 0 16px rgba(0,0,0,.4); top: 0; z-index: 200;}
+.main-nav .aside-box .menuOne{display: block; height: 49px; line-height: 50px; background: #fafafa; color: #009c3e; cursor: pointer; padding-left: 97px; white-space: nowrap; font-size: 13px;}
+.main-nav .aside-box .menuOne:hover{background: #fafafa; color: #00ab4e;}
+.main-nav .menuOne .glyphicon{margin-left: 25px; margin-right: .5em;}
+
+/****************** 页面内容 start *****************************/
+.main{width: 1100px; margin: 60px auto;}
+.main-page{margin: 10px 0; position: relative;}
+
+/**** 表格上方样式  ****/
+.main-page .nav-path{padding-top: 20px; line-height: 22px;}
+.nav-path a:hover{border-bottom: 1px solid #555;}
+.icon-path{margin: 0 5px; display: inline-block; background-image: url(../../../img/index.png); width: 8px; height: 11px; background-position: -84px -59px;}
+.btn.btn-new{background-color: #fff; color: #38ae67;}
+.btn.btn-edit{border-color: #ccc;}
+.btnnew, .btn-edit{position: absolute; right: 80px; top: 20px; height: 30px; line-height: 17px;}
+.btn.btn-new:hover{color: #fff;}
+.btnedit{right: 0;}
+
+/**** 表格样式  *****/
+.bill-table{margin: 1em 0;}
+.bill-table .table-head{height: 70px; line-height: 60px; text-align: center; font-size: 17px;}
+.bill-table .table-head .data-input{width: 110px; height: 22px; padding: 0 10px; margin-right: 60px; color: #bd744e;}
+.bill-table .table-head .span{color: #bd744e;}
+.bill-table .no-data{background: #efefef; height: 60px; line-height: 60px; text-align: center; margin-top: 40px; color: #ff4d4d;}
+
+.table-title{position: absolute; color: #bd744e; font-size: 16px; left: 0; top: 120px;}
+.table-head .input-id{height: 28px; padding: 0 10px; color: #bd744e; width: 150px;}
+.table-head .warning{display: none; color: #ff4d4d; position: absolute; left: 65%; top: 55px; font-size: 15px;}
+.table-head .userInfo{display: none; position: absolute; left: 65%; top: 55px; font-size: 15px; color: #bd744e;}
+
+.bill-table table{display: none; width: 100%; border: 1px solid #ccc;}
+.bill-table thead{border: 1px solid #2e9c4c; border-bottom: none;}
+.bill-table thead tr{height: 30px; font-size: 15px; background-color: #2e9c4c;}
+.bill-table thead tr th{text-align: center; color: #fff; font-weight: normal;}
+.bill-table thead tr th span{display: inline-block;}
+.bill-table thead .data{font-size: 14px;}
+
+.theadFirst th:nth-child(1){width: 16%;}
+.theadFirst th:nth-child(2){width: 18%;}
+.theadFirst th:nth-child(3){width: 16%;}
+.theadFirst .refer{border-right: 2px solid #522b14;}
+
+.bill-table tbody tr{text-align: center; line-height: 3em; border-bottom: 1px solid #ccc;}
+.bill-table tbody td{border-right: 1px solid #ccc;}
+.bill-table tbody .project{}
+.bill-table tbody .refer{font-weight: bold; color: #ff6a00; border-right: 2px solid #735a4b;}
+.bill-table tbody .refer p{margin: 0;}
+.bill-table tbody .hover{background: #f2fbf5;}
+.gysz td:nth-child(1){width: 4%; padding: 0 10px;}
+
+.bottom{margin-top: 2em;}
+.bottom .bottom-page{}
+.bottom .span{color: #bd744e;}
+/****************** 页面内容 start *****************************/

@@ -1,0 +1,12 @@
+*{font-family: "Microsoft YaHei",sans-serif;}
+.login_navbar{height: 80px; box-shadow:1px 1px 2px #aaaaaa;}
+.login_navbar .login_nav_head{margin-top: 13px;}
+.login_body_container{margin-top: 180px;}
+.login_body_container .login_carousel{padding: 0;}
+.login_body_container .login_form{padding: 40px;}
+
+/*  logo 字体样式*/ 
+.navbar-default .navbar-brand{color: #555;}
+.navbar-brand{font-size:22px;}
+
+

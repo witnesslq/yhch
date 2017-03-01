@@ -1,0 +1,8 @@
+.bill-table table{margin-top: 50px; display: table;}
+.bill-table thead tr th:nth-child(1){width: 35%;}
+.bill-table thead tr th:nth-child(2){width: 35%;}
+.bill-table thead tr th:nth-child(3){width: 35%;}
+.gysz td:nth-child(1){width: 10%; padding: 0 40px;}
+
+.theadFirst .refer{border-right: 1px solid #bd744e;}
+.bill-table tbody .refer{border-right: 1px solid #ccc;}

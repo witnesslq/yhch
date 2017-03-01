@@ -1,0 +1,7 @@
+.bill-table table{margin-top: 50px; display: table;}
+
+.theadFirst .refer{border-right: 1px solid #bd744e;}
+.bill-table tbody .refer{border-right: 1px solid #ccc;}
+
+.wssa td:nth-child(1), .mygn td:nth-child(1), .tz td:nth-child(1){width: 1%; padding: 0 35px;}
+.bill-table thead tr th:nth-child(1){width: 12%;}

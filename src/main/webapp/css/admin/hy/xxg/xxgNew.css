@@ -1,0 +1,14 @@
+.bill-table table{display: table;}
+
+.theadFirst th:nth-child(1){width: 27%;}
+.theadFirst th:nth-child(2){width: 23%;}
+.theadFirst th:nth-child(3){width: 20%;}
+
+.gysz td:nth-child(1){width: 7%; padding: 0 30px;}
+
+thead .data{padding-left: 38px;}
+thead .data input{width: 45%; height: 100%; border: none; color: #fff; background: transparent; padding: 0 1em;}
+tbody input{width: 100%; border: none; height: 100%; background: transparent; text-align: center;}
+
+.btn.btn-submit{margin: 4em 0; width: 220px; height: 40px; line-height: 26px; color: #fff; background: #2e9c4c; border-color: #007b3e; margin-left: 40%; font-size: 15px;}
+.btn.btn-submit:hover{transform: translateY(4px);}

@@ -1,0 +1,3 @@
+/****************  table 每列宽度样式 ****************/
+.thxqdb td:nth-child(1){width: 2%; padding: 0 22px;}
+
