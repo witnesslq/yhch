@@ -15,7 +15,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.Map;
 
-
+/**
+ * MAccountControllerUser
+ */
 @Controller
 @RequestMapping("/user/mAccount")
 public class MAccountControllerUser {

@@ -8,7 +8,9 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-
+/**
+ * UserController
+ */
 @Controller
 @RequestMapping("/user")
 public class UserController {

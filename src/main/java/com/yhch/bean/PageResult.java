@@ -6,6 +6,7 @@ import com.github.pagehelper.PageInfo;
 import java.util.List;
 
 /**
+ * PageResult
  * Created by zlren on 2017/2/27.
  */
 public class PageResult {

@@ -16,6 +16,9 @@ import org.springframework.web.servlet.ModelAndView;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * MemberControllerUser
+ */
 @Controller
 @RequestMapping("/user/member")
 public class MemberControllerUser {

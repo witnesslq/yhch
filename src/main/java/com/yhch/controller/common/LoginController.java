@@ -17,7 +17,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.HashMap;
 import java.util.Map;
 
-
+/**
+ * LoginController
+ */
 @Controller
 @RequestMapping("/auth")
 public class LoginController {
@@ -33,7 +35,6 @@ public class LoginController {
     /**
      * 首页跳转
      *
-     * @param session
      * @return
      * @throws Exception
      */

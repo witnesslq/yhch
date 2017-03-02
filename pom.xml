@@ -329,11 +329,11 @@
                     <port>8088</port>
                     <path>/YH</path>
 
-                    <!--&lt;!&ndash; 系统热部署配置 &ndash;&gt;-->
-                    <!--&lt;!&ndash; <url>http://123.206.63.123:8080/manager/text</url> &ndash;&gt;-->
-                    <!--<url>http://10.109.247.227:8080/manager/text</url>-->
-                    <!--<username>tomcat</username>-->
-                    <!--<password>tomcat</password>-->
+                    <!-- 系统热部署配置 -->
+                    <!-- <url>http://123.206.63.123:8080/manager/text</url> -->
+                    <url>http://10.109.247.227:8080/manager/text</url>
+                    <username>tomcat</username>
+                    <password>tomcat</password>
 
                 </configuration>
             </plugin>

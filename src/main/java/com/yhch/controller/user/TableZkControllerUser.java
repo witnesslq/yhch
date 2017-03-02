@@ -5,7 +5,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-/**化验-心血管 controller
+/**
+ * 化验-心血管 controller
+ *
  * @author zlren
  */
 @Controller
