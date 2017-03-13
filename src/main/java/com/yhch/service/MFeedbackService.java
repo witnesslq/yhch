@@ -1,6 +1,5 @@
 package com.yhch.service;
 
-import com.github.abel533.entity.Example;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.yhch.mapper.MFeedbackMapper;
@@ -8,6 +7,7 @@ import com.yhch.pojo.Expert;
 import com.yhch.pojo.MFeedback;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
 

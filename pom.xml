@@ -129,9 +129,9 @@
 
         <!-- 通用Mapper -->
         <dependency>
-            <groupId>com.github.abel533</groupId>
+            <groupId>tk.mybatis</groupId>
             <artifactId>mapper</artifactId>
-            <version>${com.github.abel533.version}</version>
+            <version>3.3.9</version>
         </dependency>
 
         <!--mybatis spring 插件 -->

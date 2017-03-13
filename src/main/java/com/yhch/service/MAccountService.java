@@ -1,10 +1,10 @@
 package com.yhch.service;
 
-import com.github.abel533.entity.Example;
 import com.yhch.mapper.MAccountMapper;
 import com.yhch.pojo.MAccount;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import tk.mybatis.mapper.entity.Example;
 
 import java.util.HashMap;
 import java.util.List;

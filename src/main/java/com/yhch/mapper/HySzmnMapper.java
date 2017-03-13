@@ -1,7 +1,7 @@
 package com.yhch.mapper;
 
-import com.github.abel533.mapper.Mapper;
 import com.yhch.pojo.hy.HySzmn;
+import tk.mybatis.mapper.common.Mapper;
 
 public interface HySzmnMapper extends Mapper<HySzmn> {
 

@@ -1,12 +1,12 @@
 package com.yhch.service;
 
-import com.github.abel533.entity.Example;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.yhch.mapper.ExpertMapper;
 import com.yhch.pojo.Expert;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
 
@@ -18,8 +18,6 @@ public class ExpertService extends BaseService<Expert> {
 
     @Autowired
     private ExpertMapper expertMapper;
-
-
 
 
     /**
